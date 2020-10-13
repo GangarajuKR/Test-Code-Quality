@@ -6,7 +6,7 @@ First be sure to check the [requirements](Requirements).
 
 The simplest way to install SonarLint is to use the Eclipse Marketplace client. See the [Getting Started](Getting-Started) tutorial for more details.
 
-N.B. By using this method, you will be automatically notified of new updates of SonarLint (assuming you have allowed Eclipse to check for updates).
+:information_source: By using this method, you will be automatically notified of new updates of SonarLint (assuming you have allowed Eclipse to check for updates).
 
 ## Online installation using the Eclipse _Install New Software_ wizard
 
@@ -32,7 +32,7 @@ If you can't use the Eclipse Marketplace client, you can still use directly the 
 
 5. When requested, restart you IDE
 
-N.B. By using this method, you will be automatically notified of new updates of SonarLint (assuming you have allowed Eclipse to check for updates).
+:information_source: By using this method, you will be automatically notified of new updates of SonarLint (assuming you have allowed Eclipse to check for updates).
 
 ## Offline installation using the Eclipse _Install New Software_ wizard
 
@@ -58,4 +58,4 @@ If you can't perform an online installation, you can use a SonarLint update site
 
 6. When requested, restart you IDE
 
-N.B. When using this method, you will *not* be notified for new updates of SonarLint.
+:warning: When using this method, you will *not* be notified for new updates of SonarLint.
