@@ -1,4 +1,4 @@
-# Quick Installation
+## Quick Installation
 
 SonarLint for Eclipse is a plugin that can be installed in most Eclipse based IDEs (including Spring Tool Suite, PyDev, ...)
 
