@@ -13,3 +13,14 @@ SonarLint for Eclipse is a plugin that can be installed in most Eclipse based ID
 3. Restart your IDE
 
 For more installation methods, look for the advanced [installation](Installation) documentation.
+
+## First taste of SonarLint
+
+Now that you have SonarLint installed, open a project containing source files of languages SonarLint can analyze.
+
+:construction: 
+
+* On-the-fly view
+* code snippets for all languages
+* rule description
+* analyze all files
