@@ -2,12 +2,14 @@
 
 SonarLint for Eclipse is a plugin that can be installed in most Eclipse based IDEs (including Spring Tool Suite, PyDev, ...)
 
-In your Eclipse based IDE, open the Marketplace client:
+1.  In your Eclipse based IDE, open the Marketplace client
+
 [TODO]
 
-Search for SonarLint, and click _Install_:
+2. Search for SonarLint, and click _Install_
+
 [TODO]
 
-Restart your IDE.
+3. Restart your IDE
 
 For more installation methods, look for the advanced [installation](Installation) documentation.
