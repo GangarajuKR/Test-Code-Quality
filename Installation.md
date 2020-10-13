@@ -16,19 +16,20 @@ If you can't use the Eclipse Marketplace client, you can still use directly the 
 
 1. Open _Install New Software_
 
-[TODO]
+[[images/install/open_install_new_software_wizard.png|alt=Install new software]]
 
-2. Click on the _Add..._ button to add a new update site pointing to https://eclipse-uc.sonarlint.org. Give the update site a meaningful name.<br>Don't worry if you can't open this URL in your web browser, Eclipse will automatically look for files [compositeContent.xml](https://eclipse-uc.sonarlint.org/compositeContent.xml) and [compositeArtifacts.xml](https://eclipse-uc.sonarlint.org/compositeArtifacts.xml)
+2. Click on the _Add..._ button to add a new repository pointing to https://eclipse-uc.sonarlint.org. Give the repository a meaningful name.<br>Don't worry if you can't open this URL in your web browser, Eclipse will automatically look for files [compositeContent.xml](https://eclipse-uc.sonarlint.org/compositeContent.xml) and [compositeArtifacts.xml](https://eclipse-uc.sonarlint.org/compositeArtifacts.xml)
 
-[TODO]
+[[images/install/add_software_site.png|alt=Add Update Site]]
+[[images/install/add_software_site_online.png|alt=Add Update Site Online]]
 
-3. Select the just added _SonarLint_ update site, and tick the _SonarLint for Eclipse_ feature
+3. Select the just added _SonarLint_ repository, and tick the _SonarLint for Eclipse_ feature
 
-[TODO]
+[[images/install/p2_install_online.png|alt=Select feature online]]
 
 4. Review the features about to be installed, and click _Finish_
 
-[TODO]
+[[images/install/p2_install_confirm.png|alt=Confirm feature]]
 
 5. When requested, restart you IDE
 
@@ -36,25 +37,26 @@ If you can't use the Eclipse Marketplace client, you can still use directly the 
 
 ## Offline installation using the Eclipse _Install New Software_ wizard
 
-If you can't perform an online installation, you can use a SonarLint update site archive.
+If you can't perform an online installation, you can use a SonarLint repository archive.
 
-1. Manually download the latest archive of the SonarLint update site from https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/
+1. Manually download the latest archive (.zip) of the SonarLint repository from https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/
 
 2. Open _Install New Software_
 
-[TODO]
+[[images/install/open_install_new_software_wizard.png|alt=Install new software]]
 
-3. Click on the _Add..._ button to add a new archive update site. Click on the _Archive..._ button to select the zip file you have downloaded. Give the update site a meaningful name.
+3. Click on the _Add..._ button to add a new repository. Click on the _Archive..._ button to select the zip file you have downloaded. Give the repository a meaningful name.
 
-[TODO]
+[[images/install/add_software_site.png|alt=Add Update Site]]
+[[images/install/add_software_site_archive.png|alt=Add Update Site Archive]]
 
-4. Select the just added _SonarLint_ update site, and tick the _SonarLint for Eclipse_ feature
+4. Select the just added repository, and tick the _SonarLint for Eclipse_ feature
 
-[TODO]
+[[images/install/p2_install_offline.png|alt=Select feature offline]]
 
 5. Review the features about to be installed, and click _Finish_
 
-[TODO]
+[[images/install/p2_install_confirm.png|alt=Confirm feature]]
 
 6. When requested, restart you IDE
 
