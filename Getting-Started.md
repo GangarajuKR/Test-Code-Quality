@@ -4,11 +4,11 @@ SonarLint for Eclipse is a plugin that can be installed in most Eclipse based ID
 
 1.  In your Eclipse based IDE, open the Marketplace client
 
-[TODO]
+[[images/install/open_marketplace_client.png|alt=Open Marketplace Client]]
 
 2. Search for SonarLint, and click _Install_
 
-[TODO]
+[[images/install/marketplace_install.png|alt=Install from Marketplace]]
 
 3. Restart your IDE
 
