@@ -16,7 +16,33 @@ For more installation methods, look for the advanced [installation](Installation
 
 ## First taste of SonarLint
 
-Now that you have SonarLint installed, open a project containing source files of languages SonarLint can analyze.
+Now that you have SonarLint installed, open or create a new project containing source files in a programming language SonarLint can analyze out of the box: Java, PHP, Python, JavaScript or HTML.
+
+For example in Java, you can copy paste this code snippet:
+
+```java
+package org.mycompany;
+
+import java.util.logging.Level;
+import java.util.logging.Logger;
+
+public class Main {
+
+  private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
+
+  public static void main(String[] args) {
+    for (int i = 0; i < 10; i++) {
+      for (int j = 0; j < 10; i++) {
+        LOGGER.log(Level.INFO, "Pair: ({0},{1})", new Object[] {i, j});
+      }
+    }
+  }
+
+}
+```
+
+If you open this Java file with the Eclipse Java editor, you should see SonarLint underlining an issue:
+
 
 :construction: 
 
