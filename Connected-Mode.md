@@ -27,7 +27,7 @@ A connection is the set of informations needed to communicate with the SonarQube
 [[images/connected/wizard_set_url.png|alt=Set URL]]
 
 4. Choose the authentication method:
-* Token: you will have to generate a token on SonarQube, to be used by SonarLint as authentication method. This is the preferred way to avoid the risk to compromise your username/password.
+* Token: generate a token on [SonarQube](https://docs.sonarqube.org/latest/user-guide/user-token/), to be used by SonarLint as authentication method. This is the preferred way to avoid the risk to compromise your username/password.
 * Username + Password: use directly your SonarQube credentials (not recommended)
 
 [[images/connected/wizard_choose_auth.png|alt=Choose auth]]
@@ -37,6 +37,8 @@ A connection is the set of informations needed to communicate with the SonarQube
 6. Give your connection a name
 
 ## Configure a connection to SonarCloud
+
+4. Generate a token on [SonarCloud](https://sonarcloud.io/documentation/user-guide/user-token/), to be used by SonarLint as authentication method.
 
 # Configure project(s) binding
 
