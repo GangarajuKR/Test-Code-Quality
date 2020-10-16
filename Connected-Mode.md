@@ -11,9 +11,30 @@ Note: connected mode does not push issues to the server. Rather, its purpose is 
 
 # Configure a connection
 
-A connection is a basically the informations needed to communicate with the SonarQube server or SonarCloud.
+A connection is the set of informations needed to communicate with the SonarQube server or SonarCloud (URL, credentials, ...).
 
 ## Configure a connection to a SonarQube server
+
+1. Open the connection wizard, for example using menu _File_ -> _New_-> _Other..._ and then _SonarQube/SonarCloud Connection_:
+[[images/connected/file_new_connection.png|alt=New Connection]]
+
+2. Select _SonarQube_ and click on the _Next_ button:
+
+[[images/connected/wizard_select_sonarqube.png|alt=Select SonarQube]]
+
+3. Enter your SonarQube server URL:
+
+[[images/connected/wizard_set_url.png|alt=Set URL]]
+
+4. Choose the authentication method:
+* Token: you will have to generate a token on SonarQube, to be used by SonarLint as authentication method. This is the preferred way to avoid the risk to compromise your username/password.
+* Username + Password: use directly your SonarQube credentials (not recommended)
+
+[[images/connected/wizard_choose_auth.png|alt=Choose auth]]
+
+5. Enter your token or username/password
+
+6. Give your connection a name
 
 ## Configure a connection to SonarCloud
 
