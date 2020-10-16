@@ -18,7 +18,7 @@ For more installation methods, look for the advanced [installation](Installation
 
 Now that you have SonarLint installed, open or create a new project containing source files in a programming language SonarLint can analyze out of the box: Java, PHP, Python, JavaScript or HTML.
 
-For example in Java, you can copy paste this code snippet, with a typical bug when copy/pasting for loops:
+For example in Java, you can copy paste this code snippet, with a typical bug when copy/pasting `for` loops:
 
 ```java
 package org.mycompany;
@@ -43,13 +43,13 @@ public class Main {
 
 If you open this Java file within the Eclipse Java editor, you should see SonarLint reporting the issue:
 
-[[images/analysis/first_time_analysis.png|alt=First time analysis]]
+[[images/analysis/first_time_analysis.png|alt=First time analysis|align=center]]
 
 To get more details about the issue, you can simply hover on the issue location, and a popup will display the issue message:
 
-[[images/analysis/sonarlint_java_problem_hover.png|alt=Hover]]
+[[images/analysis/sonarlint_java_problem_hover.png|alt=Hover|align=center]]
 
 There is also the possibility to use the SonarLint `On-The-Fly` view to display the list of issues found by SonarLint. Simply open the view from the menu Windows -> Show View -> Other...
 
-[[images/views/open_on_the_fly_view.png|alt=Open On-The-Fly view]]
-[[images/views/on_the_fly_view.png|alt=On-The-Fly view]]
+[[images/views/open_on_the_fly_view.png|alt=Open On-The-Fly view|align=center]]
+[[images/views/on_the_fly_view.png|alt=On-The-Fly view|align=center]]
