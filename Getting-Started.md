@@ -43,13 +43,13 @@ public class Main {
 
 If you open this Java file within the Eclipse Java editor, you should see SonarLint reporting the issue:
 
-[[images/analysis/first_time_analysis.png|alt=First time analysis|align=center]]
+[[images/analysis/first_time_analysis.png|alt=First time analysis]]
 
 To get more details about the issue, you can simply hover on the issue location, and a popup will display the issue message:
 
-[[images/analysis/sonarlint_java_problem_hover.png|alt=Hover|align=center]]
+[[images/analysis/sonarlint_java_problem_hover.png|alt=Hover]]
 
 There is also the possibility to use the SonarLint `On-The-Fly` view to display the list of issues found by SonarLint. Simply open the view from the menu Windows -> Show View -> Other...
 
-[[images/views/open_on_the_fly_view.png|alt=Open On-The-Fly view|align=center]]
-[[images/views/on_the_fly_view.png|alt=On-The-Fly view|align=center]]
+[[images/views/open_on_the_fly_view.png|alt=Open On-The-Fly view]]
+[[images/views/on_the_fly_view.png|alt=On-The-Fly view]]
