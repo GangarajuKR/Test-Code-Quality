@@ -18,7 +18,7 @@ For more installation methods, look for the advanced [installation](Installation
 
 Now that you have SonarLint installed, open or create a new project containing source files in a programming language SonarLint can analyze out of the box: Java, PHP, Python, JavaScript or HTML.
 
-For example in Java, you can copy paste this code snippet:
+For example in Java, you can copy paste this code snippet, with a typical bug when copy/pasting for loops:
 
 ```java
 package org.mycompany;
@@ -31,9 +31,9 @@ public class Main {
   private static final Logger LOGGER = Logger.getLogger(Main.class.getName());
 
   public static void main(String[] args) {
-    for (int i = 0; i < 10; i++) {
-      for (int j = 0; j < 10; i++) {
-        LOGGER.log(Level.INFO, "Pair: ({0},{1})", new Object[] {i, j});
+    for (int left = 0; left < 10; left++) {
+      for (int right = 0; right < 10; left++) {
+        LOGGER.log(Level.INFO, "Pair: ({0},{1})", new Object[] {left, right});
       }
     }
   }
@@ -41,12 +41,15 @@ public class Main {
 }
 ```
 
-If you open this Java file with the Eclipse Java editor, you should see SonarLint underlining an issue:
+If you open this Java file within the Eclipse Java editor, you should see SonarLint reporting the issue:
 
+[[images/analysis/first_time_analysis.png|alt=First time analysis]]
 
-:construction: 
+To get more details about the issue, you can simply hover on the issue location, and a popup will display the issue message:
 
-* On-the-fly view
-* code snippets for all languages
-* rule description
-* analyze all files
+[[images/analysis/sonarlint_java_problem_hover.png|alt=Hover]]
+
+There is also the possibility to use the SonarLint `On-The-Fly` view to display the list of issues found by SonarLint. Simply open the view from the menu Windows -> Show View -> Other...
+
+[[images/views/open_on_the_fly_view.png|alt=Open On-The-Fly view]]
+[[images/views/on_the_fly_view.png|alt=On-The-Fly view]]
