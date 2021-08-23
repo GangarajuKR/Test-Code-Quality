@@ -1,5 +1,5 @@
 # Overview
-You can connect SonarLint to SonarQube >= 6.7 or SonarCloud to aim at having consistent issues reported on both sides.
+You can connect SonarLint to SonarQube >= 7.9 or SonarCloud to aim at having consistent issues reported on both sides.
 
 Features when connected mode is used:
 * use the same analyzers than the server, assuming they are supported in SonarLint
