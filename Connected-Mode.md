@@ -42,7 +42,7 @@ A connection is the set of informations needed to communicate with the SonarQube
 
 # View configured connections
 
-Configured connections can be retrieved from the Bindings view (Window > Show View > Other... > SonarLint > SonarLint Bindings).
+Configured connections can be retrieved from the Bindings view (_Window_ > _Show View_ > _Other..._ > _SonarLint_ > _SonarLint Bindings_).
 
 This should open a view at the bottom, listing all connections:
 
