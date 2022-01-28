@@ -40,15 +40,15 @@ A connection is the set of informations needed to communicate with the SonarQube
 
 4. Generate a token on [SonarCloud](https://sonarcloud.io/documentation/user-guide/user-token/), to be used by SonarLint as authentication method.
 
-# Edit a connection
+# View configured connections
 
-Once a connection has been created, it can be useful to edit it, e.g. to update the credentials in use. Connections can be retrieved from the Bindings view (Window > Show View > Other... > SonarLint > SonarLint Bindings).
+Configured connections can be retrieved from the Bindings view (Window > Show View > Other... > SonarLint > SonarLint Bindings).
 
-This should open a view at the bottom, listing all the active connections:
+This should open a view at the bottom, listing all connections:
 
 [[images/connected/bindings_view.png|alt=Bindings View]]
 
-A right-click on a connection will open a contextual menu to remove or update the connection.
+A right-click on a connection will open a contextual menu to remove or edit the connection. It can be useful for example to update the credentials if they have changed.
 
 # Configure project(s) binding
 
