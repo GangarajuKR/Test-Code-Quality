@@ -39,7 +39,7 @@ If you can't use the Eclipse Marketplace client, you can still use directly the 
 
 If you can't perform an online installation, you can use a SonarLint repository archive.
 
-1. Manually download the latest archive (.zip) of the SonarLint repository from https://binaries.sonarsource.com/SonarLint-for-Eclipse/releases/
+1. Manually download the latest archive (.zip) of the SonarLint repository from https://binaries.sonarsource.com/?prefix=SonarLint-for-Eclipse/releases/
 
 2. Open _Install New Software_
 
