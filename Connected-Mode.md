@@ -2,7 +2,7 @@
 You can connect SonarLint to SonarQube >= 7.9 or SonarCloud to aim at having consistent issues reported on both sides.
 
 Features when connected mode is used:
-* use the same analyzers than the server, assuming they are supported in SonarLint
+* use the same analyzers than the server, assuming they are supported in SonarLint (except for JS/TS and HTML analyzers where SonarLint keep using its embedded version)
 * use the same quality profile (same rules activation, parameters, severity, ...)
 * reuse some settings defined on the server (rule exclusions, analyzer parameters, ...)
 * automatically suppress issues that are marked as _Won’t Fix_ or _False Positive_ on the server
