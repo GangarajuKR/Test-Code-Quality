@@ -1,5 +1,9 @@
 :construction: 
 
+# Eclipse version
+
+SonarLint is supported from Eclipse Photon (4.8).
+
 # Runtime requirements
 
 * SonarLint 7+ requires that Eclipse runs on Java 11+
